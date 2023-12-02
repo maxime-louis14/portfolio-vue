@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <section>
     <Profil />
-  </div>
+  </section>
+  <section>
+    <Skills />
+  </section>
 </template>
 
 <script setup>
+import Skills from "../components/Skills.vue";
 import Profil from "../components/Profil.vue";
 </script>

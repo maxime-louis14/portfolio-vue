@@ -1,20 +1,24 @@
 <template>
-    <main>  
-      <div
-        class="bg-slate-600 rounded-3xl shadow-2xl h-screen mt-10 ml-10 max-w-md relative overflow-hidden"
-      >
-        <div class="image-container">
-          <img
-            class="rounded-3xl box-content w-80 relative -top-5"
-            src="../assets/images/avatar.png"
-            alt=""
-            srcset=""
-          />
-        </div>
-  
-        <h1 class="text-5xl font-semibold ml-3 mt-16">Maxime Louis</h1>
-        <p class="text-center text-2xl font-normal">Développeur web Back-end</p>
+  <div class="flex justify-center pl-20">
+    <div class="text-white w-3/4 mt-96">
+      <h1 class="text-7xl font-semibold">Ingénieur Full Stack</h1>
+      <p class="mt-6 w-3/4 font-sans text-lg">
+        Développement complet, du front-end au back-end, pour créer des
+        applications Web intuitives et performantes.
+      </p>
+    </div>
+    <div class="flex">
+      <div class="w-full">
+        <img
+          src="/public/assets/images/Image-font/26760925_2112.i301.031.S.m004.c13.UI and UX designers concepts isometric composition.svg"
+          alt="Full Stack Developer"
+          class="w-screen h-screen object-contain"
+        />
       </div>
-    </main>
-  </template>
-  
+    </div>
+  </div>
+</template>
+
+<style scoped>
+/* Ajoute des styles au besoin */
+</style>

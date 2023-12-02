@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar.vue";
 </script>
 
 <template>
-<div>
+<div class="bg-black">
     <header>
       <Navbar />
     </header>
