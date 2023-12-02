@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto max-w-screen-xl pt-6 text-white">
-    <h1 class="text-2xl font-semibold text-center mb-4">Skills & Experience</h1>
-    <p class="text-center">
+  <div class="mx-auto w-1/2 pt-6 text-white">
+    <h1 class="text-5xl font-semibold text-center mb-4">Skills & Experience</h1>
+    <p class="text-center text-lg  justify-center ">
       En tant que professionnel du DevOps, je suis spécialisé dans la mise en
       place d'environnements de développement et de déploiement fluides. Mes
       compétences couvrent un large éventail d'outils et de technologies pour

@@ -1,6 +1,9 @@
 <template>
   <section>
-    <Profil />
+    <Home />
+  </section>
+  <section>
+    <Me />
   </section>
   <section>
     <Skills />
@@ -9,5 +12,6 @@
 
 <script setup>
 import Skills from "../components/Skills.vue";
-import Profil from "../components/Profil.vue";
+import Me from "../components/me.vue";
+import Home from "../components/Home.vue";
 </script>

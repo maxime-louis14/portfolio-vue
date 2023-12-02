@@ -1,9 +1,9 @@
 <template>
-  <Profil />
+  <Home />
   <Skills />
 </template>
 
 <script setup>
 import Skills from "../components/Skills.vue";
-import Profil from "../components/Profil.vue";
+import Home from "../components/Home.vue";
 </script>
