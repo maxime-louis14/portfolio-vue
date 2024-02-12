@@ -1,7 +1,8 @@
 <template>
-  <div class="mx-auto w-1/2 pt-6 text-white">
+  <div class="h-screen ">
+  <div class="mx-auto w-1/2 pt-80 text-white" id="Skills">
     <h1 class="text-5xl font-semibold text-center mb-4">Skills & Experience</h1>
-    <p class="text-center text-lg  justify-center ">
+    <p class="text-center text-lg justify-center">
       En tant que professionnel du DevOps, je suis spécialisé dans la mise en
       place d'environnements de développement et de déploiement fluides. Mes
       compétences couvrent un large éventail d'outils et de technologies pour
@@ -20,12 +21,13 @@
     >
       <img
         class="w-20 pt-4 mr-4"
-        :src="`/public/assets/images/logo-skills/${skill.icon}`"
+        :src="`/assets/images/logo-skills/${skill.icon}`"
         :alt="skill.name"
       />
       <p class="text-sm font-semibold">{{ skill.name }}</p>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -39,12 +41,11 @@ export default {
         { name: "Docker", icon: "docker-svgrepo-com.svg", order: 4 },
         { name: "Node", icon: "node-16-svgrepo-com.svg", order: 5 },
         { name: "JavaScript", icon: "js01-svgrepo-com.svg", order: 6 },
-        { name: "Symfony", icon: "symfony-svgrepo-com.svg", order: 7 },
-        { name: "GitHub", icon: "github-142-svgrepo-com.svg", order: 8 },
-        { name: "Git", icon: "git-svgrepo-com.svg", order: 9 },
+        { name: "GitHub", icon: "github-142-svgrepo-com.svg", order: 12 },
+        { name: "Git", icon: "git-svgrepo-com.svg", order: 13 },
         { name: "Ansible", icon: "ansible-svgrepo-com.svg", order: 11 },
-        { name: "CSS", icon: "css3-02-svgrepo-com.svg", order: 12 },
-        { name: "HTML", icon: "html5-02-svgrepo-com.svg", order: 13 },
+        { name: "CSS", icon: "css3-02-svgrepo-com.svg", order:  8 },
+        { name: "HTML", icon: "html5-02-svgrepo-com.svg", order: 9 },
         { name: "MySQL", icon: "mysql-svgrepo-com.svg", order: 14 },
         { name: "MongoDB", icon: "mongodb-svgrepo-com.svg", order: 15 }
         // Ajoute d'autres compétences ici

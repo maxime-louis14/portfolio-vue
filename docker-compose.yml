@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  portfolio-vue:
+    build:
+      context: ./Front-end
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./Front-end:/app/Front-end # Volume pour le front-end
+      - /app/Front-end/node_modules
