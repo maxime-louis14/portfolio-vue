@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen ">
-  <div class="mx-auto w-1/2 pt-80 text-white" id="Skills">
+  <div class="mx-auto w-1/2 text-white" id="Skills">
     <h1 class="text-5xl font-semibold text-center mb-4">Skills & Experience</h1>
     <p class="text-center text-lg justify-center">
       En tant que professionnel du DevOps, je suis spécialisé dans la mise en

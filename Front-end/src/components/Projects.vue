@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen">
+  <div class="h-full">
     <div class="flex flex-col items-center justify-center" id="Projects">
       <div class="w-1/3">
         <h1 class="text-6xl font-semibold text-white text-center">
@@ -14,33 +14,105 @@
         </p>
       </div>
     </div>
-    <!-- C'est la section des projets -->
-    <div class="flex justify-around mt-8">
-      <div class="flex-1">
-        <a
-          href="https://github.com/maxime-louis14/go_api__scrapper_mysql_docker"
-          class="relative group"
-        >
-          <p class="text-white text-lg text-center">Scraping Web</p>
-          <img
-            src="../../public/assets/images/Projet_GitHub/Scraper-go.png"
-            class="rounded-md border-2 border-white w-auto h-auto object-cover mt-5 ml-10"
-          />
-          <div
-            class="absolute inset-0 flex items-center justify-center bg-yellow-50 bg-opacity-50 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+    <div class="flex flex-col justify-between pl-10">
+      <!-- Slide 1 -->
+      <div class="flex items-center mb-8 pt-32">
+        <!-- Image -->
+        <img
+          src="../../public/assets/images/Projet_GitHub/Scraper-go.png"
+          class="object-cover w-auto h-auto mr-4"
+        />
+
+        <!-- Contenu -->
+        <div class="flex-1">
+          <!-- Paragraphe -->
+          <p class="text-white text-lg text-center whitespace-pre-line px-8">
+            Voici mon scrappeur réalisé en Golang avec l'API. Ce projet a été
+            réalisé dans un cadre scolaire. Le scrappeur est un programme
+            informatique conçu pour extraire des données d'un site web de
+            manière automatisée. En utilisant le langage de programmation Golang
+            et l'API, nous avons développé un outil capable de récupérer des
+            informations spécifiques à partir de différentes sources en ligne.
+            Cette expérience nous a permis d'approfondir nos compétences en
+            programmation, de comprendre les concepts liés au web, aux
+            protocoles HTTP, ainsi que de nous familiariser avec le traitement
+            de données. Ce projet a été une opportunité d'apprentissage pratique
+            enrichissante dans un environnement scolaire.
+          </p>
+
+          <!-- Bouton GitHub -->
+          <a
+            href="https://github.com/maxime-louis14/go_api__scrapper_mysql_docker"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-gray-800 text-white px-4 py-2 rounded mt-4 hover:bg-gray-700 mx-auto"
           >
-            <p class="text-white text-center">Cliquez pour plus de détails</p>
-          </div>
-        </a>
+            Voir sur GitHub
+          </a>
+        </div>
       </div>
 
-      <div class="flex-1">
-        <p class="text-white text-lg text-center">Hébergement d'Images</p>
-        <img src="" class="object-contain" />
+      <!-- Slide 2 -->
+      <div class="flex items-center mb-8 pt-32">
+        <!-- Image -->
+        <img
+          src="../../public/assets/images/Projet_GitHub/IDK-Solutions.png"
+          class="object-cover w-2/4 h-2/5 mr-4"
+        />
+
+        <!-- Contenu -->
+        <div class="flex-1">
+          <!-- Paragraphe -->
+          <p class="text-white text-lg text-center whitespace-pre-line px-8">
+            Le projet IDK Solutions propose une approche novatrice pour
+            améliorer l'expérience du trading pour les professionnels. L'équipe
+            reconnaît l'importance de l'innovation dans ce domaine dynamique et
+            vise à redéfinir complètement l'interface du trader. Leur mission
+            stratégique consiste à comprendre en profondeur les besoins et les
+            défis des traders professionnels. Ce site est un projet d'école et
+            une première version pour recueillir des données des traders.
+          </p>
+
+          <!-- Bouton GitHub -->
+          <a
+            href="https://github.com/maxime-louis14/fintech-IDK_Solutions"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-gray-800 text-white px-4 py-2 rounded mt-4 hover:bg-gray-700 mx-auto"
+          >
+            Voir sur GitHub
+          </a>
+        </div>
       </div>
-      <div class="flex-1">
-        <p class="text-white text-lg text-center">Jeu du Pendu</p>
-        <img src="" class="object-contain" />
+
+      <!-- Slide 3 -->
+      <div class="flex items-center pt-32 pb-10">
+        <!-- Image -->
+        <img
+          src="../../public/assets/images/Projet_GitHub/Image-home.png"
+          class="object-cover w-2/4 h-2/5 mr-4"
+        />
+
+        <!-- Contenu -->
+        <div class="flex-1">
+          <!-- Paragraphe -->
+          <p class="text-white text-lg text-center whitespace-pre-line px-8 ">
+            Ce projet consiste en un service d'hébergement d'images appelé "A3
+            Dev - NWS ImageShack". L'objectif de ce service est de permettre aux
+            utilisateurs de partager facilement leurs images drôles et leurs
+            exemples de code. Les utilisateurs peuvent s'inscrire, uploader des
+            images, les gérer et les rendre accessibles au public ou privées.
+          </p>
+          <!-- Bouton GitHub -->
+          <a
+            href="https://github.com/maxime-louis14/ImageShack"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-gray-800 text-white px-4 py-2 rounded mt-4 hover:bg-gray-700 mx-auto"
+          >
+            Voir sur GitHub
+          </a>
+        </div>
       </div>
     </div>
   </div>
