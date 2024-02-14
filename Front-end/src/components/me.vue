@@ -1,14 +1,21 @@
+<script setup>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+</script>
+
 <template>
   <div class="flex justify-center items-center h-screen" id="me">
     <div class="text-white w-full">
-      <h1 class="text-4xl font-semibold ml-56">
+      <h1 class="text-2xl font-semibold ml-52">
         Bonjour, Je Maxime Développeur full stack
       </h1>
     </div>
 
     <div class="flex items-center ml-60">
       <div class="w-full">
-        <p class="text-white text-xl w-3/4">
+        <p class="text-white text-xs w-3/4">
           Professionnellement lié à l'industrie du développement web. Résolveur
           de problèmes, personne bien organisée, employé loyal avec une grande
           attention aux détails. Fan de boxe, d'activités de plein air, de jeux
