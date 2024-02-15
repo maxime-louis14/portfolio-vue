@@ -1,10 +1,10 @@
 <template>
   <div>
     <div id="navbar" class="fixed top-0 w-full z-10">
-      <nav class="bg-gray-950 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
+      <nav class="bg-gray-950 text-white">
+        <div class="container flex justify-between items-center">
           <div class="text-2xl font-bold">
-            <a href="#Home" class="text-white"> Accueil </a>
+            <a href="#Home" class="text-white ml-16"> Accueil </a>
           </div>
 
           <div class="flex space-x-4">
@@ -12,9 +12,9 @@
               Home
             </a>
             <a href="#me" class="hover:bg-gray-600 px-4 py-2 rounded"> me </a>
-            <a href="#Skills" class="hover:bg-gray-600 px-4 py-2 rounded">
+            <!-- <a href="#Skills" class="hover:bg-gray-600 px-4 py-2 rounded">
               Skills
-            </a>
+            </a> -->
             <a href="#Projects" class="hover:bg-gray-600 px-4 py-2 rounded">
               Projects
             </a>

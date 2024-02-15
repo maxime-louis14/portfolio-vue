@@ -1,14 +1,15 @@
 <script setup>
 import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 AOS.init();
 </script>
 
 <template>
-  <div class="flex justify-center pl-20" id="Home">
-    <div class="text-white mt-64"  data-aos="flip-left" >
-      <h1 class="text-4xl font-semibold ">Développeur Full Stack</h1>
-      <p class="mt-6 mr-10 font-sans text-lg">
+  <div class="flex justify-center mb-52 " id="Home">
+    <div class="text-white w-2/5 mt-96 ml-16">
+      <h1 class="text-6xl font-semibold">Développeur Full Stack</h1>
+      <p class="mt-6 font-sans text-lg">
         Développement complet, du front-end au back-end, pour créer des
         applications Web intuitives et performantes.
       </p>

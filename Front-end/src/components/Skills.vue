@@ -1,17 +1,8 @@
-<script setup>
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
-</script>
-
 <template>
-  <div class="h-screen">
-    <div class="mx-auto w-1/2 text-white" id="Skills">
-      <h1 class="text-5xl font-semibold text-center mb-4">
-        Skills & Experience
-      </h1>
-      <p class="text-center text-lg justify-center">
+  <div class="flex items-center pt-28" id="Skills">
+    <div class="w-1/3 text-white ml-36 pt-8">
+      <h1 class="text-5xl font-semibold">Compétences et Expérience</h1>
+      <p class="text-lg justify-center mt-5">
         En tant que professionnel du DevOps, je suis spécialisé dans la mise en
         place d'environnements de développement et de déploiement fluides. Mes
         compétences couvrent un large éventail d'outils et de technologies pour
@@ -21,23 +12,30 @@ AOS.init();
     </div>
 
     <div
-      class="flex mx-auto max-w-screen-md columns-7 mt-5 flex-wrap place-content-center text-white"
+      class="flex mx-10 max-w-screen-md mt-5 ml-28 flex-wrap place-content-center text-white"
     >
       <div
         v-for="(skill, index) in orderedSkills"
         :key="index"
-        class="text-center mb-4"
+        class=" mb-5"
       >
         <img
-          class="w-20 pt-4 mr-4"
+          class="w-20  mr-4"
           :src="`/assets/images/logo-skills/${skill.icon}`"
           :alt="skill.name"
         />
-        <p class="text-sm font-semibold">{{ skill.name }}</p>
+        <p class="text-sm text-center pt-3 font-semibold">{{ skill.name }}</p>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+</script>
 
 <script>
 export default {
@@ -70,6 +68,4 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Ajoute des styles au besoin */
-</style>
+<style scoped></style>
