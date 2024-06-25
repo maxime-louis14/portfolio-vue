@@ -12,5 +12,7 @@ export default defineConfig({
     host: true,
     strictPort: true,
     port: 3000
-  }
+  },
+  envPrefix: 'VITE_' // Assurez-vous que les variables d'environnement commencent par 'VITE_'
+
 });

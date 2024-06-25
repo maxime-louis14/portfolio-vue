@@ -11,7 +11,7 @@
             <a href="#Home" class="hover:bg-gray-600 px-4 py-2 rounded">
               Home
             </a>
-            <a href="#me" class="hover:bg-gray-600 px-4 py-2 rounded"> me </a>
+            <a href="#me" class="hover:bg-gray-600 px-4 py-2 rounded"> Profil </a>
             <!-- <a href="#Skills" class="hover:bg-gray-600 px-4 py-2 rounded">
               Skills
             </a> -->

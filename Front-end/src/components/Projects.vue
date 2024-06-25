@@ -104,7 +104,7 @@ AOS.init();
 
         <!-- Image -->
         <img
-          src="../../public/assets/images/Projet_GitHub/IDK-solutions.png"
+          src="../../public/assets/images/Projet_GitHub/IDK-Solutions.png"
           class="object-cover w-1/3 h-2/5 mr-96 rounded-lg"
         />
       </div>
