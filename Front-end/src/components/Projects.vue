@@ -16,7 +16,7 @@ AOS.init();
       <p class="text-white text-lg text-center">
         Sur mon portfolio, vous découvrirez mes projets, à la fois issus de mes
         réalisations d'école et personnels, incluant le scraping web,
-        l'hébergement d'images et le jeu du pendu.
+        l'hébergement d'images et IDK Solution une réalisation d'école.
       </p>
     </div>
 
