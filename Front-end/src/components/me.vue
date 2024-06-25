@@ -9,14 +9,14 @@
     <div class="flex items-center justify-center mt-4 ml-64 w-2/5">
       <div class="">
         <p class="text-white text-xl">
-          Diplômé d'un bac + 3 de niveau 6 chef de projet digital spécialisé
-          dans le développement web. Durant mes études, j'étais en apprentissage
-          dans deux entreprises, L'Élan Gymnique Rouennais (2021-2022) et Les
-          Éco Pépites (2022-2023). Dans ces deux entreprises, j'ai pu travailler
-          sur le CMS WordPress. À l'Élan Gymnique Rouennais, j'ai utilisé
-          WordPress pour réaliser un site vitrine de leur salle de gym et de
-          musculation. Avec Les Éco Pépites, j'ai repris le projet qui était une
-          marketplace multivendeurs réalisée en WordPress.
+          Je suis à la recherche d'une opportunité d'alternance en full-stack,
+          avec une expertise particulière en Golang. Titulaire d'un Bac + 3 en
+          Chef de Projet Digital option Développeur web de Normandie Web School,
+          je prévois de débuter un mastère en Lead Développeur full stack à
+          partir de septembre 2024 pour approfondir mes compétences.
+          Parallèlement, je développe divers projets personnels en Golang, C#,
+          TypeScript, Vue.js et React.tsx, ce qui témoigne de ma polyvalence et
+          de ma passion pour l'innovation technologique.
         </p>
       </div>
     </div>
