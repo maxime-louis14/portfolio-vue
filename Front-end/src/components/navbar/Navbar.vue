@@ -30,20 +30,70 @@
               <a href="#me" class="hover:bg-gray-600 px-4 py-2 rounded"
                 >Profil</a
               >
-              <!-- <a href="#Skills" class="hover:bg-gray-600 px-4 py-2 rounded">Skills</a> -->
               <a href="#Projects" class="hover:bg-gray-600 px-4 py-2 rounded"
                 >Réalisations</a
               >
-      
+
+              <!-- Utilisation des images pour LinkedIn et GitHub -->
+              <a
+                href="https://www.linkedin.com/in/maxime-l-5530941b5/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-white"
+              >
+                <img
+                  src="/assets/images/logo-skills/skill-icons--linkedin.svg"
+                  alt="LinkedIn"
+                  class="w-6 h-6 hover:opacity-75 transition duration-300"
+                />
+              </a>
+
+              <a
+                href="https://github.com/maxime-louis14"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-white"
+              >
+                <img
+                  src="/assets/images/logo-skills/skill-icons--github-light.svg"
+                  alt="GitHub"
+                  class="w-6 h-6 hover:opacity-75 transition duration-300"
+                />
+              </a>
             </div>
           </div>
           <div v-show="menuOpen" class="md:hidden flex flex-col space-y-2 pb-4">
             <a href="#me" class="hover:bg-gray-600 px-4 py-2 rounded">Profil</a>
-            <!-- <a href="#Skills" class="hover:bg-gray-600 px-4 py-2 rounded">Skills</a> -->
             <a href="#Projects" class="hover:bg-gray-600 px-4 py-2 rounded"
               >Réalisations</a
             >
-          
+
+            <!-- Utilisation des images pour LinkedIn et GitHub pour la version mobile -->
+            <a
+              href="https://www.linkedin.com/in/maxime-l-5530941b5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-white"
+            >
+              <img
+                src="/assets/images/logo-skills/skill-icons--linkedin.svg"
+                alt="LinkedIn"
+                class="w-6 h-6 hover:opacity-75 transition duration-300"
+              />
+            </a>
+
+            <a
+              href="https://github.com/maxime-louis14"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-white"
+            >
+              <img
+                src="/assets/images/logo-skills/skill-icons--github-light.svg"
+                alt="GitHub"
+                class="w-6 h-6 hover:opacity-75 transition duration-300"
+              />
+            </a>
           </div>
         </div>
       </nav>
@@ -66,10 +116,15 @@ const toggleMenu = () => {
 </script>
 
 <style scoped>
-/* Exemple de règle CSS pour rendre un composant responsive */
-@media (max-width: 768px) {
-  .text-4xl {
-    font-size: 3rem;
-  }
+/* Ajout d'une règle CSS pour les images */
+a {
+  text-decoration: none;
+}
+
+/* Style pour les images */
+img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 </style>

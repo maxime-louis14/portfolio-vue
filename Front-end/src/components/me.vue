@@ -12,13 +12,13 @@
       <div>
         <p class="text-white text-lg">
           Je suis à la recherche d'une opportunité d'alternance en full-stack,
-          avec une expertise particulière en Golang. Titulaire d'un Bac + 3 en
-          Chef de Projet Digital option Développeur web de Normandie Web School,
-          je prévois de débuter un mastère en Lead Développeur full stack à
-          partir de septembre 2024 pour approfondir mes compétences.
-          Parallèlement, je développe divers projets personnels en Golang, C#,
-          TypeScript, Vue.js et React.tsx, ce qui témoigne de ma polyvalence et
-          de ma passion pour l'innovation technologique.
+          avec une expertise particulière en Golang. Titulaire d'un Bac + 3 Chef
+          de Projet Digital option Développeur web de Normandie Web School, je
+          prévois de débuter un mastère en Lead Développeur full stack à partir
+          de septembre 2024 pour approfondir mes compétences. Parallèlement, je
+          développe divers projets personnels en Golang, C#, TypeScript, Vue.js
+          et React.tsx, ce qui témoigne de ma polyvalence et de ma passion pour
+          l'innovation technologique.
         </p>
       </div>
     </div>
@@ -40,4 +40,3 @@ AOS.init();
   }
 }
 </style>
-
