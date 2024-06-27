@@ -2,7 +2,7 @@
   <div class="flex flex-col md:flex-row items-center py-20 md:py-28" id="me">
     <div class="text-white w-full md:w-1/3 md:ml-36 px-4">
       <h1 class="text-4xl font-semibold">
-        Bonjour, Je Maxime Développeur full stack
+        Bonjour, Je suis Maxime Développeur full stack
       </h1>
     </div>
 
