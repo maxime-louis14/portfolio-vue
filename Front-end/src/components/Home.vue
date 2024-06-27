@@ -14,7 +14,7 @@
         </p>
         <!-- Bouton CV -->
         <a
-          href="../../public/assets/images/cv/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
+          href="../../public/assets/images/CV/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block bg-blue-600 text-white px-6 py-3 rounded mt-6 hover:bg-blue-500 transition duration-300"
@@ -41,5 +41,12 @@ import Navbar from "../components/navbar/Navbar.vue";
 /* Ajout d'une règle CSS pour le bouton */
 a {
   text-decoration: none;
+}
+
+/* Styles personnalisés pour la mise en page responsive */
+@media (min-width: 768px) {
+  .md\:ml-16 {
+    margin-left: 4rem; /* Ajustement de la marge gauche sur grand écran */
+  }
 }
 </style>

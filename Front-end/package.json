@@ -17,6 +17,7 @@
     "@vercel/speed-insights": "^1.0.12",
     "aos": "^2.3.4",
     "vue": "^3.3.4",
+    "vue-pdf": "^4.3.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
