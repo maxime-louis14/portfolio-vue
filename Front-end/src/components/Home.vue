@@ -12,6 +12,15 @@
           Développement complet, du front-end au back-end, pour créer des
           applications Web intuitives et performantes.
         </p>
+        <!-- Bouton CV -->
+        <a
+          href="../../public/assets/cv/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block bg-blue-600 text-white px-6 py-3 rounded mt-6 hover:bg-blue-500 transition duration-300"
+        >
+          Télécharger mon CV
+        </a>
       </div>
       <div class="hidden md:flex w-full md:w-3/5 justify-center">
         <img
@@ -26,16 +35,11 @@
 
 <script setup>
 import Navbar from "../components/navbar/Navbar.vue";
-
-const components = {
-  Navbar
-};
 </script>
 
 <style scoped>
-@media (max-width: 768px) {
-  .text-6xl {
-    font-size: 3rem;
-  }
+/* Ajout d'une règle CSS pour le bouton */
+a {
+  text-decoration: none;
 }
 </style>

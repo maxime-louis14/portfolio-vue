@@ -34,6 +34,7 @@
               <a href="#Projects" class="hover:bg-gray-600 px-4 py-2 rounded"
                 >Réalisations</a
               >
+      
             </div>
           </div>
           <div v-show="menuOpen" class="md:hidden flex flex-col space-y-2 pb-4">
@@ -42,6 +43,7 @@
             <a href="#Projects" class="hover:bg-gray-600 px-4 py-2 rounded"
               >Réalisations</a
             >
+          
           </div>
         </div>
       </nav>
