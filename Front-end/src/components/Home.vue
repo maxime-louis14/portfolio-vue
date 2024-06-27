@@ -14,7 +14,7 @@
         </p>
         <!-- Bouton CV -->
         <a
-          href="../../public/assets/images/CV/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
+          href="../../assets/images/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block bg-blue-600 text-white px-6 py-3 rounded mt-6 hover:bg-blue-500 transition duration-300"
