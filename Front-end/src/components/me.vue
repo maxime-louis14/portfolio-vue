@@ -27,7 +27,6 @@
 
 <script setup>
 
-AOS.init();
 </script>
 
 <style scoped>
