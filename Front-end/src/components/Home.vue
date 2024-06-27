@@ -14,7 +14,7 @@
         </p>
         <!-- Bouton CV -->
         <a
-          href="../../public/assets/images/CV/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
+          href="/public/assets/images/CV/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-block bg-blue-600 text-white px-6 py-3 rounded mt-6 hover:bg-blue-500 transition duration-300"
@@ -35,6 +35,28 @@
 
 <script setup>
 import Navbar from "../components/navbar/Navbar.vue";
+
+// Vous pouvez charger le PDF de manière asynchrone ici
+const loadPDF = async () => {
+  try {
+    const response = await fetch(
+      "/public/assets/images/CV/CV_Maxime_Developpeur_web_Alternance_full-stack.pdf"
+    );
+    if (!response.ok) {
+      throw new Error("Failed to load PDF");
+    }
+    return await response.blob();
+  } catch (error) {
+    console.error("Échec du chargement du PDF :", error);
+    return null;
+  }
+};
+
+// Utilisation de l'objet `loadPDF` pour récupérer le PDF
+let pdf = null;
+loadPDF().then((blob) => {
+  pdf = URL.createObjectURL(blob);
+});
 </script>
 
 <style scoped>
