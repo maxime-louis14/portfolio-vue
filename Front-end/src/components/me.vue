@@ -1,14 +1,16 @@
 <template>
-  <div class="flex items-center pt-20 pb-40 w-full" id="me">
-    <div class="text-white w-1/4 ml-36">
+  <div class="flex flex-col md:flex-row items-center py-20 md:py-28" id="me">
+    <div class="text-white w-full md:w-1/3 md:ml-36 px-4">
       <h1 class="text-4xl font-semibold">
         Bonjour, Je Maxime Développeur full stack
       </h1>
     </div>
 
-    <div class="flex items-center justify-center mt-4 ml-64 w-2/5">
-      <div class="">
-        <p class="text-white text-xl">
+    <div
+      class="flex items-center justify-center mt-4 md:ml-64 w-full md:w-2/3 px-4"
+    >
+      <div>
+        <p class="text-white text-lg">
           Je suis à la recherche d'une opportunité d'alternance en full-stack,
           avec une expertise particulière en Golang. Titulaire d'un Bac + 3 en
           Chef de Projet Digital option Développeur web de Normandie Web School,
@@ -30,4 +32,12 @@ import "aos/dist/aos.css";
 AOS.init();
 </script>
 
-<style scoped></style>
+<style scoped>
+/* Exemple de règle CSS pour rendre un composant responsive */
+@media (max-width: 768px) {
+  .text-4xl {
+    font-size: 3rem;
+  }
+}
+</style>
+

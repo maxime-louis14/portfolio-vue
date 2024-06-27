@@ -11,4 +11,5 @@ const components = {
   <div id="app" class="bg-gray-950">
     <Navbar />
   </div>
+  
 </template>
