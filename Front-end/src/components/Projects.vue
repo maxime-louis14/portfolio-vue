@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center py-20 md:py-28" id="Projects">
     <div class="w-full md:w-1/2 text-center px-4">
       <h1 class="text-4xl font-semibold text-white">
-        Portfolio & Previous Projects
+        Projets personnels
       </h1>
       <p class="mt-5 text-white text-lg">
         Sur mon portfolio, vous découvrirez mes projets, à la fois issus de mes

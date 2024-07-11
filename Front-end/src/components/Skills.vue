@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center py-20 md:py-28" id="Skills">
     <div class="w-full md:w-1/2 text-center px-4">
       <h1 class="text-5xl font-semibold text-white">
-        Compétences et Expérience
+        Compétences et Expériences
       </h1>
       <p class="mt-5 text-lg text-white">
         En tant que spécialiste des langages back-end, je possède une solide
